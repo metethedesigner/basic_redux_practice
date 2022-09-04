@@ -3,7 +3,7 @@ import Login from "./Login";
 import { useSelector } from "react-redux";
 
 const Profile = () => {
-  const user = useSelector((state) => state.user.value);
+  const user = useSelector((state) => state.user);
 
   return (
     <div className="container mx-auto">
